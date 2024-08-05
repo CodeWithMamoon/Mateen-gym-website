@@ -3,6 +3,7 @@ import { config } from "dotenv";
 import cors from "cors";
 import { sendEmail } from "./utils/sendEmail.js";
 
+const PORT=process.env.PORT || 4000;
 const app = express();
 const router = express.Router();
 
